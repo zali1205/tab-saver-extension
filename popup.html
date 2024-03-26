@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <template id="li_template">
+      <li>
+        <a>
+          <h3 class="title">Tab Title</h3>
+          <p class="pathname">Tab Pathname</p>
+        </a>
+      </li>
+    </template>
+
+    <template id="ul_template">
+      <div>
+        <h2>Current Tabs Opened</h2>
+        <ul id=""></ul>
+      </div>
+    </template>
+
+    <h1>Tab Saver</h1>
+    <button>Save Tabs</button>
+    <h3 id="current_windows">Current Windows Opened</h3>
+
+    <script src="./popup.js" type="module"></script>
+  </body>
+</html>
